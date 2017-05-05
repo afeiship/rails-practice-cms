@@ -53,4 +53,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem 'rails_pages'
+gem 'rails_pages', :path => '/Users/feizheng/github/_rails_pages'
