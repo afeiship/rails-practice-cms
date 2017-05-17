@@ -3,5 +3,9 @@
 
 
 ## modules:
-+ [ ] page module
-+ [ ] user module
++ [x] page module
++ [x] single user module (rails_env_admin)
+
+
+## resources:
++ http://blog.csdn.net/i__am__sai/article/details/56830764
