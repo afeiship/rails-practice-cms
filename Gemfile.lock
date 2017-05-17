@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/feizheng/github/rails_env_admin
+GIT
+  remote: git@github.com:afeiship/rails_env_admin.git
+  revision: cd8b8da41c1ff7bebbb1272e70ceda29c3cf7f31
   specs:
     rails_env_admin (0.1.0)
 

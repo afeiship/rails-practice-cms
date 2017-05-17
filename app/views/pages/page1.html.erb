@@ -1,1 +1,7 @@
 <h1>Pages#page1</h1>
+
+<% if session[:login] %>
+    <p>login success!</p>
+<% else %>
+    <p>You have not login</p>
+<% end %>

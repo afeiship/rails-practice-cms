@@ -52,5 +52,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "rails_env_admin", :path=>"/Users/feizheng/github/rails_env_admin"
+gem "rails_env_admin", :git=>"git@github.com:afeiship/rails_env_admin.git"
 # gem "rails_pages", :path=>"/Users/feizheng/github/rails_pages"
