@@ -16,7 +16,7 @@ Rails.application.config.filter_parameters += [:password]
 
 ## generators:
 Rails.application.config.generators do |generator|
-  generator.test_framework false
+  generator.test_framework :rspec
   generator.helper false
   generator.assets false
 end
