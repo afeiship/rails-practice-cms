@@ -52,5 +52,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+## bootstrap:
+gem 'bootstrap-sass', '~> 3.3.7'
+
 # gem "rails_env_admin", :git=>"git@github.com:afeiship/rails_env_admin.git", :ref => '3989aae3dbd5d912745b6325206147c705d2e582'
 gem "rails_env_admin", :path=>"/Users/feizheng/github/rails_env_admin"
