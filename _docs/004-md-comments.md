@@ -1,6 +1,6 @@
 # module-comments:
 ```bash
-rl-g modal Comment content:text
+rl-g model Comment content:text
 rake db:migrate
 ```
 

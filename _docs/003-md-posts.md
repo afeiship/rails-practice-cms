@@ -1,6 +1,6 @@
 # module-posts:
 ```bash
-rl-g modal Post title:string content:text
+rl-g model Post title:string content:text
 rake db:migrate
 ```
 
