@@ -19,7 +19,7 @@ https://github.com/afeiship/rails-practice-jkf
 
 ## 通用设置(Option)：
 
-## 静态页面Rails Controller：
+## 静态页面(Page)：
 这部分实现成rails controller就可以，可以做一个表单配置的方式，可以考虑成通用的gem，但不需要做成有界面的config:
 http://stackoverflow.com/questions/35021148/dynamically-create-methods-in-controller-rails
 
