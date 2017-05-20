@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+$navbar-height:64px;
+$navbar-inverse-bg:#1B8AFA;
+$navbar-inverse-link-color:#FFF;
+$navbar-border-radius:0;
+
+
+@import "bootstrap";
+
+
+
+
+body {
+  background: #fff;
+}
+
+.global-footer {
+  background-color: #303749;
+  color: #FFF;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding:40px;
+  height:150px;
+}
+
+.global-content{
+  margin:100px auto 160px;
+}
