@@ -1,6 +1,6 @@
 # module-options:
 ```bash
-rl-g model Option key:string value:string
+rl-g model admin/Option key:string value:string
 rake db:migrate
 ```
 
