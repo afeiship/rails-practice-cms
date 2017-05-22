@@ -3,11 +3,6 @@ class Admin::PostsController < Admin::BaseController
     @admin_posts = Admin::Post.all
   end
 
-  def new
-    p admin_post_params
-    @admin_post = Admin::Post.new
-  end
-
   def show
     @admin_post = Admin::Post.find(params[:id])
   end
@@ -16,6 +11,10 @@ class Admin::PostsController < Admin::BaseController
     @admin_post = Admin::Post.find(params[:id])
   end
 
+
+  def new
+    @admin_post = Admin::Post.new
+  end
 
   def create
     @admin_post = Admin::Post.new(admin_post_params)
@@ -43,6 +42,9 @@ class Admin::PostsController < Admin::BaseController
 
 
   private
+  def set_admin_post
+    @admin_post = Admin::Post.find(params[:id])
+  end
   # Never trust parameters from the scary internet, only allow the white list through.
   def admin_post_params
     if params[:action] == 'new'
