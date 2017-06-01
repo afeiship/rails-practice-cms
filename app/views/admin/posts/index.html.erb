@@ -10,10 +10,10 @@
   </thead>
 
   <tbody>
-  <% @admin_posts.each do |admin_post| %>
+  <% @items.each do |item| %>
       <tr>
-        <td><%= admin_post.title %></td>
-        <td><%= admin_post.content %></td>
+        <td><%= item.title %></td>
+        <td><%= item.content %></td>
       </tr>
   <% end %>
   </tbody>
