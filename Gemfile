@@ -57,3 +57,4 @@ gem 'bootstrap-sass', '~> 3.3.7'
 
 # gem "rails_env_admin", :git=>"git@github.com:afeiship/rails_env_admin.git", :ref => '3989aae3dbd5d912745b6325206147c705d2e582'
 gem "rails_env_admin", :path=>"/Users/feizheng/github/rails_env_admin"
+gem "rails_curd_base", :path=>"/Users/feizheng/github/rails_curd_base"

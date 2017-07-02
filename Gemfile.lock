@@ -1,4 +1,9 @@
 PATH
+  remote: /Users/feizheng/github/rails_curd_base
+  specs:
+    rails_curd_base (0.1.0)
+
+PATH
   remote: /Users/feizheng/github/rails_env_admin
   specs:
     rails_env_admin (0.1.0)
@@ -174,6 +179,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   puma (~> 3.0)
   rails (~> 5.0.2)
+  rails_curd_base!
   rails_env_admin!
   sass-rails (~> 5.0)
   spring
