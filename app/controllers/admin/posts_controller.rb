@@ -6,7 +6,7 @@ class Admin::PostsController < RailsCurdBase::CurdController
   
   messages  :create => 'Post was successfully created.', 
             :update => 'Post was successfully updated.', 
-            :destry => 'Post was successfully destroyed.'
+            :destroy => 'Post was successfully destroyed.'
   layout 'layouts/admin'
 
 end
