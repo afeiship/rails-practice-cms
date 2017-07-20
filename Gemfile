@@ -57,4 +57,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'config'
 gem 'high_voltage', '~> 3.0.0'
 gem 'bootstrap-sass', '~> 3.3.7'
-gem "rails_env_admin", :path=>"/Users/feizheng/github/rails_env_admin"
+
+## local gem:
+gem "rails_env_admin", path: '/Users/feizheng/github/rails_env_admin'
+gem 'rails_category', path:'/Users/feizheng/github/rails_category'
+gem 'rails_taggable', path: '/Users/feizheng/github/rails_taggable'
