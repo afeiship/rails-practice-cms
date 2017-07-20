@@ -1,0 +1,43 @@
+<h1>wenda#new</h1>
+<p>Find me in app/views/wends/new.html.erb</p>
+
+
+<%= form_for( @wenda ) do |f| %>
+
+
+  <% if @article.errors.any? %>
+    <header id="error_explanation">
+      <h2><%= pluralize(@wenda.errors.count, "error") %> prohibited this article from being saved:</h2>
+
+      <ul>
+        <% @wenda.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+        <% end %>
+      </ul>
+    </header>
+  <% end %>
+
+
+    <div class="field">
+      <%= f.label :title %><br />
+      <%= f.text_field :title %>
+    </div>
+
+    <div class="field">
+      <%= f.label :tag_list, "Tags (separated by commas)" %><br />
+      <%= f.text_field :tag_list %>
+    </div>
+
+    <div class="field">
+      <%= f.label :wen %><br />
+      <%= f.text_field :wen %>
+    </div>
+
+    <div class="field">
+      <%= f.label :da %><br />
+      <%= f.text_field :da %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

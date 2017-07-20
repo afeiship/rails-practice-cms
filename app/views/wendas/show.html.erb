@@ -1,0 +1,17 @@
+<p>
+  <strong>name:</strong>
+  <%= @wenda.title %>
+</p>
+
+<p>
+  <strong>wen:</strong>
+  <%= @wenda.wen %>
+</p>
+
+<p>
+  <strong>da:</strong>
+  <%= @wenda.da %>
+</p>
+
+<%= link_to 'Edit', edit_wenda_path(@wenda) %> |
+<%= link_to 'Back', wendas_path %>
