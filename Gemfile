@@ -62,3 +62,6 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem "rails_env_admin", path: '/Users/feizheng/github/rails_env_admin'
 gem 'rails_category', path:'/Users/feizheng/github/rails_category'
 gem 'rails_taggable', path: '/Users/feizheng/github/rails_taggable'
+
+gem 'carrierwave', '~> 0.10.0'
+gem 'mini_magick', '~> 4.3'

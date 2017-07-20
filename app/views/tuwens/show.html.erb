@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @tuwen.title %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= image_tag @tuwen.image.thumb.url %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @tuwen.content %>
+</p>
+
+<%= link_to 'Edit', edit_tuwen_path(@tuwen) %> |
+<%= link_to 'Back', tuwens_path %>

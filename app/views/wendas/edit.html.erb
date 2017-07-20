@@ -5,7 +5,7 @@
 <%= form_for( @wenda ) do |f| %>
 
 
-  <% if @article.errors.any? %>
+  <% if @wenda.errors.any? %>
     <header id="error_explanation">
       <h2><%= pluralize(@wenda.errors.count, "error") %> prohibited this article from being saved:</h2>
 
