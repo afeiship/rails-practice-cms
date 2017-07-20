@@ -1,6 +1,7 @@
 RailsTaggable.configure do |config|
   config.models = [
-    'Article',
-    'WenDa'
+    # 'Article',
+    # 'Wenda',
+    # 'Tuwen'
   ]
 end

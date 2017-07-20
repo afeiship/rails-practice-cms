@@ -69,6 +69,6 @@ class TuwensController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tuwen_params
-      params.require(:tuwen).permit(:title, :image, :content)
+      params.require(:tuwen).permit(:title, :image, :content, :tag_list)
     end
 end
